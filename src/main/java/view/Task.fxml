@@ -12,7 +12,7 @@
 
 <AnchorPane prefHeight="415.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TaskController">
    <children>
-      <ChoiceBox fx:id="moeda1" layoutX="139.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
+      <ChoiceBox fx:id="cbMoeda1" layoutX="139.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
       <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="800.0">
         <menus>
           <Menu mnemonicParsing="false" text="File">
@@ -38,7 +38,7 @@
          </font>
       </Label>
       <TextField fx:id="txtValor1" layoutX="175.0" layoutY="219.0" prefHeight="35.0" prefWidth="100.0" />
-      <ChoiceBox layoutX="492.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
+      <ChoiceBox fx:id="cbMoeda2" layoutX="492.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
       <TextField fx:id="txtValor2" layoutX="528.0" layoutY="219.0" prefHeight="35.0" prefWidth="100.0" />
       <Button fx:id="btnTrocar" layoutX="363.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnTrocar" prefHeight="35.0" prefWidth="74.0" />
    </children>

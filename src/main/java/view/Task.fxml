@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="415.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TaskController">
+   <children>
+      <ChoiceBox fx:id="cbMoeda1" layoutX="139.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="800.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="234.0" layoutY="85.0" prefHeight="58.0" prefWidth="333.0" text="Conversor de moedas">
+         <font>
+            <Font name="Verdana Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtValor1" layoutX="175.0" layoutY="219.0" prefHeight="35.0" prefWidth="100.0" />
+      <ChoiceBox fx:id="cbMoeda2" layoutX="492.0" layoutY="265.0" prefHeight="35.0" prefWidth="172.0" />
+      <TextField fx:id="txtValor2" layoutX="528.0" layoutY="219.0" prefHeight="35.0" prefWidth="100.0" />
+      <Button fx:id="btnTrocar" layoutX="363.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnTrocar" prefHeight="35.0" prefWidth="74.0" />
+   </children>
+</AnchorPane>
